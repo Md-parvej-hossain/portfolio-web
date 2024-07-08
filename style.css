@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* nav-bare-degin-start =============================*/
+header {
+  background-color: var(--box-bg-color);
+  padding: 25px;
+  max-width: 100%;
+  height: 800px;
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+:root {
+  --button-color: rgb(253, 110, 10);
+  --box-bg-color: rgb(255, 248, 243);
+  --main-margin: 0 130px;
+  --h3-font-size: 35px;
+  --a-p-color: rgb(71, 71, 71);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--main-margin);
+}
+.nav-titil {
+  font-size: 45px;
+  font-weight: 800;
+}
+.nav-span {
+  color: var(--button-color);
+}
+.nav-bar li a {
+  font-size: 20px;
+  color: var(--a-p-color);
+  padding: 0 20px;
+  transition: all 0.4s;
+}
+.nav-bar li:hover .same {
+  color: var(--button-color);
+  transform: translateY(-5px);
+}
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+.btn-primare {
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 35px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.btn-primare:hover {
+  background-color: transparent;
+  border: 2px solid var(--button-color);
+  color: var(--a-p-color);
+}
+.baner {
+  display: flex;
+  margin: 38px 38px 0px 130px;
+}
+.contant {
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 262px;
+  margin: 0 auto;
+}
+.imgs {
+  width: 50%;
+  height: 676px;
+  align-items: center;
+}
+.baner-head {
+  font-size: 65px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.baner-welcom {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.baner-contant {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.btn-primare-cv {
+  background-color: var(--box-bg-color);
+  color: var(--a-p-color);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 15px 35px;
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.btn-primare-cv:hover {
+  background-color: var(--button-color);
+  border: 2px solid transparent;
+  color: white;
+}
+/* nav-bare-degin-End ==============================*/
+
+/* about section degin start======================== */
+
+.about-Me {
+  height: 400px;
+  width: 50%;
+  margin: 100px auto;
+  background-color: var(--box-bg-color);
+  text-align: center;
+}
+.about-Me:hover {
+  background-color: rgb(241, 221, 206);
+}
+.about-Me h3 {
+  font-size: var(--h3-font-size);
+  color: var(--button-color);
+  padding-bottom: 15px;
+}
+.about-Me .about-contant {
+  font-size: 18px;
+  color: rgb(117, 117, 117);
+  text-align: justify;
+  padding: 20px;
+  text-align-last: center;
+  line-height: 25px;
+}
+.about-addrs {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.about-addrs span {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* about section degin end======================== */
